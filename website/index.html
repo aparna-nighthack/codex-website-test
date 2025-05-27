@@ -1,84 +1,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Company Name</title>
+    <title>ShoeS - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="logo">
-            <img src="assets/logo.png" alt="Company Logo">
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=');">
+        <div class="hero-content">
+            <img src="logo.png" alt="ShoeS Logo" class="logo">
+            <h1 class="tagline">Step Into Style</h1>
+            <a href="login.html" class="cta-button">Shop Now</a>
         </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQOnhJMAqpVzPYJLviZg9sPIhWuNioqjd9g&s" alt="Promotional Image" class="promo-image">
     </header>
 
-    <!-- Hero Banner -->
-    <section id="hero" class="hero-banner">
-        <div class="hero-content">
-            <h1>Welcome to Our Website</h1>
-            <p>Your success is our goal. Discover our solutions for your business needs.</p>
-            <a href="#services" class="btn">Learn More</a>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="icon1.png" alt="Icon Premium Quality">
+            <h2>Premium Quality</h2>
+        </div>
+        <div class="feature">
+            <img src="icon2.png" alt="Icon Free Shipping">
+            <h2>Free Shipping</h2>
+        </div>
+        <div class="feature">
+            <img src="icon3.png" alt="Icon 30-Day Returns">
+            <h2>30-Day Returns</h2>
         </div>
     </section>
 
-    <!-- Services/Features Section -->
-    <section id="services" class="content-section">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <img src="assets/service_icon.png" alt="Service Icon">
-                <h3>Web Design</h3>
-                <p>We create stunning and responsive websites tailored to your business needs.</p>
-            </div>
-            <div class="service-card">
-                <img src="assets/service_icon.png" alt="Service Icon">
-                <h3>SEO Optimization</h3>
-                <p>Boost your online presence with our expert SEO services.</p>
-            </div>
-            <div class="service-card">
-                <img src="assets/service_icon.png" alt="Service Icon">
-                <h3>Digital Marketing</h3>
-                <p>Engage with your audience through strategic digital marketing campaigns.</p>
-            </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
         </div>
-    </section>
-
-    <!-- About Us Section -->
-    <section id="about" class="content-section">
-        <h2>Who We Are</h2>
-        <h3>Our Story</h3>
-        <div class="about-content">
-            <img src="assets/about_image.jpg" alt="About Image" class="about-image">
-            <p>Founded in 2021, we have been consistently delivering industry-leading solutions and unparalleled service to our clients. Our team of creative and technical professionals works tirelessly to ensure your business reaches new heights.</p>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-content">
-            <p>© 2024 Company Name. All rights reserved.</p>
-            <div class="social-media-icons">
-                <a href="#"><img src="assets/facebook_icon.png" alt="Facebook"></a>
-                <a href="#"><img src="assets/instagram_icon.png" alt="Instagram"></a>
-                <a href="#"><img src="assets/twitter_icon.png" alt="Twitter"></a>
-            </div>
-            <div class="contact-info">
-                <p>Email: info@companyname.com</p>
-                <p>Phone: +123 456 7890</p>
-            </div>
-        </div>
+        <p class="copyright">© 2023 ShoeS. All rights reserved.</p>
     </footer>
-
-    <script src="scripts/main.js"></script>
 </body>
 </html>
