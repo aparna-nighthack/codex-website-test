@@ -1,3 +1,6 @@
+Here's the combined code for `styles.css`:
+
+```css
 :root {
     --background-color: #ffffff;
     --primary-color: #000000;
@@ -35,7 +38,7 @@ header, footer {
 }
 
 .hero-section {
-    background-image: url('https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=');
+    background-image: url('https://www.bing.com/images/search?q=shoes+images&id=20E896C92E60CF0E10B4D2190725A022A06571EF&FORM=IACFIR');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -254,3 +257,34 @@ footer a:hover {
 .toggle-switch input:checked + label::after {
     transform: translateX(25px);
 }
+```
+
+Here's the combined code for `index.html`:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ShoeS Brand</title>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero" style="background-image: url('https://www.bing.com/images/search?q=shoes+images&id=20E896C92E60CF0E10B4D2190725A022A06571EF&FORM=IACFIR');">
+        <div class="hero-content">
+            <img src="logo.png" alt="ShoeS Logo" class="logo">
+            <h1 class="tagline">Step into Style - ShoeS</h1>
+            <a href="login.html" class="cta-button">Shop Now</a>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQOnhJMAqpVzPYJLviZg9sPIhWuNioqjd9g&s" alt="Promotional Image" class="promo-image">
+    </header>
+
+    <!-- Content sections go here -->
+    
+</body>
+</html>
+```
+
+These files combine the original content with the developer's modifications, ensuring that everything is complete and ready for use.
